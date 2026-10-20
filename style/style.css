@@ -131,3 +131,19 @@ a{
     border: 1px solid #d8e08e;
     border-radius: 55px;
 }
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color:pink;
+
+    text-decoration: center;
+}
+
+.rodape address{
+    font-style: normal;
+}
+
+.rodape a{
+    text-decoration: none;
+}
