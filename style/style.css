@@ -6,7 +6,7 @@ body{
     margin: 0;
 
     background-color: #f4f7fB;
-    color: #1f2937;
+    color: #1f3037;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -41,14 +41,14 @@ a{
 }
 
 .cabecalho{
-    background-color: #123a63;
-    color: white;
+    background-color: #187485;
+    color: rgb(213, 162, 91);
 
     padding: 30px 0;
 }
 
 .cabecalho h1{
-    color: white;
+    color: rgb(228, 161, 89);
 }
 
 .etiqueta{
@@ -92,3 +92,42 @@ a{
     text-decoration: none;
 }
 
+.secao{
+    padding: 72px 0; 
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: #fff;
+    border: 1px solid #d8e08e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.lista-tecnologias{
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tecnologias li{
+    padding: 10px 14px;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #d8e08e;
+    border-radius: 55px;
+}
