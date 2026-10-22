@@ -34,6 +34,10 @@ a{
     color: #1d4ed8;
 }
 
+code, pre{
+    font-family: Consolas, "Courier New", monospace;
+}
+
 .container{
     width: 90%;
     max-width: 1000px;
@@ -135,7 +139,8 @@ a{
 .rodape{
     margin-top: 40px;
     padding: 25px;
-    background-color:pink;
+    background-color:rgba(195, 185, 187, 0.466);
+    text-align: center;
 
     text-decoration: center;
 }
